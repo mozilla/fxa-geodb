@@ -65,8 +65,8 @@ describe('fxa-geodb', function () {
   it('returns an object with location data when supplied with a valid ip address', function () {
     ip = DEFAULTS.GEODB_TEST_IP;
     var latLong = {
-      latitude: 37.386,
-      longitude: -122.0838
+      latitude: 37.3885,
+      longitude: -122.0741
     };
     return geoDb(ip)
       .then(function (location) {
